@@ -1,16 +1,13 @@
 A Basic Till application.
 
-
-
 Includes a random request for a payment between €0 - €99.99.
 The keypad is used for input. If the input equals or precedes the request, payment can be completed via Zahlung button.
 
 ## Available Scripts
 
-
 In the project directory, you can run:
 
-### `yarn install` 
+### `yarn install`
 
 Installs the required dependencies.
 
@@ -26,6 +23,9 @@ Build script automatically removes unused **Tailwind CSS** styles, and significa
 
 ## Testing with Cypress
 
-## `cypress open`
+### `yarn cypress open`
+
+!! **Requires Development Server to Run** 
 
 Opens Cypress suite. "Run All Specs" starts the testing process.
+
