@@ -12,7 +12,7 @@ const PriceBox = ({ amount, type, cypressData, toPay }: PriceBox) => {
   return (
     <div
       className={
-        "text-gray-600 w-1/3 border mb-2 px-5 text-light antialiased pt-2 flex  h-24 bg-gray-100"
+        "text-gray-600 lg:w-1/3 md:w-1/2 border mb-2 px-5 text-light antialiased pt-2 flex h-24 bg-gray-100"
       }
     >
       {/* "type" defines the title*/}
