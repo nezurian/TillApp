@@ -12,7 +12,7 @@ In the project directory, you can run:
 Installs the required dependencies.
 
 ### `yarn build`
-### `serve -s build`
+ `serve -s build`
 
 Builds the app for production to the `build` folder and serves the build locally.<br />
 Build script automatically removes unused **Tailwind CSS** styles, and significantly reduce the bundle size.
