@@ -11,15 +11,16 @@ In the project directory, you can run:
 
 Installs the required dependencies.
 
+### `yarn build`
+### `serve -s build`
+
+Builds the app for production to the `build` folder and serves the build locally.<br />
+Build script automatically removes unused **Tailwind CSS** styles, and significantly reduce the bundle size.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-Build script automatically removes unused **Tailwind CSS** styles, and significantly reduce the bundle size.
 
 ## Testing with Cypress
 

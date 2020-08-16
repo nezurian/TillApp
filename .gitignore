@@ -13,6 +13,9 @@
 
 # production
 /build
+/src/assets/styles.css
+
+.idea
 
 # misc
 .DS_Store
