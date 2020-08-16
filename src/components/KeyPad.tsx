@@ -9,7 +9,7 @@ const KeyPad = ({ onClick }: KeyPad) => {
   const keys = ["7", "8", "9", "4", "5", "6", "1", "2", "3", "<", "0", ""];
 
   return (
-    <div data-cy="KeyPad" className={"w-1/4 h-full grid grid-cols-3"}>
+    <div data-cy="KeyPad" className={"w-1/2 h-full grid grid-cols-3"}>
       {keys.map((key) => (
         <button
           data-cy={key === "<" ? "ButtonDel" : `Button${key}`}
@@ -17,7 +17,7 @@ const KeyPad = ({ onClick }: KeyPad) => {
           onClick={onClick}
           value={key}
           style={{ backgroundColor: "rgb(99,109,111)" }}
-          className="h-16 m-1 text-4xl hover:text-teal-500 text-gray-200 antialiased font-light"
+          className="h-auto m-1 text-4xl hover:text-teal-500 text-gray-200 antialiased font-light"
         >
           {key}
         </button>

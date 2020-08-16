@@ -17,7 +17,7 @@ const QuickBar = ({ handleQuickInput }: QuickBar) => {
   const suggestions = [100, 50, 20, 10, 5];
 
   return (
-    <div data-cy="QuickBar" className={"w-1/4 space-y-1 flex flex-col"}>
+    <div data-cy="QuickBar" className={"w-1/2 h-auto space-y-1 flex flex-col"}>
       {suggestions.length > 1 &&
         suggestions.map((item) => (
           <button

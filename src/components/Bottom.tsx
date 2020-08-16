@@ -41,7 +41,7 @@ const Bottom = ({
       </div>
 
       {/* Quick Suggestions Bar & Keypad */}
-      <div className={"flex w-full space-x-4 py-2 justify-center flex-row"}>
+      <div className={"flex xl:w-1/2 md:w-4/6 container mx-auto justify-around flex-row"}>
         <QuickBar handleQuickInput={handleQuickInput} />
         <KeyPad onClick={onClick} />
       </div>
@@ -52,7 +52,7 @@ const Bottom = ({
             data-cy={"Fertig"}
           onClick={reset}
           className={
-            "absolute bottom-0 right-0 bg-teal-500 text-gray-200 border-2 mr-40 mb-3 w-40 h-16"
+            "absolute bottom-0 right-0 bg-teal-500 text-gray-200 border-2  xl:mr-40 lg:mr-2 mb-3 w-40 h-16"
           }
         >
           Fertig
@@ -63,7 +63,7 @@ const Bottom = ({
             data-cy={"Zahlen"}
           onClick={handlePayment}
           className={
-            "absolute bottom-0 right-0 bg-teal-500 text-gray-200 border-2 mr-40 mb-3 w-40 h-16"
+            "absolute bottom-0 right-0 bg-teal-500 text-gray-200 border-2 xl:mr-40 lg:mr-2 mb-3 w-40 h-16"
           }
         >
           Zahlen
